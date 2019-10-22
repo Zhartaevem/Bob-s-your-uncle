@@ -1,0 +1,61 @@
+$primary-color-dark: #303F9F;
+$primary-color: #3F51B5;
+$primary-color-light: #C5CAE9;
+$primary-color-text: #FFFFFF;
+$accent-color: #448AFF;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$divider-color: #BDBDBD;
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 16px;
+    background-color: $divider-color;
+    color: $secondary-text-color;
+    .navbar {
+        padding: 0.3rem 5rem;
+        border: 1px solid $primary-text-color;
+        .number-phone {
+            color: $primary-color;
+        }
+        .navbar-nav {
+            li.nav-item>a.nav-link {
+                color: $primary-text-color;
+                &:hover {
+                    color: $primary-color;
+                }
+            }
+            li.active>a.nav-link {
+                color: $primary-color;
+            }
+        }
+    }
+    // Шапкa
+    .header {
+        font-size: 2rem;
+        background-image: url(/img/header.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 560px;
+        padding: 10rem 3rem;
+        p {
+            color: $secondary-text-color;
+        }
+        h4 {
+            font-weight: bold;
+            color: $secondary-text-color;
+            >span {
+                color: $primary-color;
+            }
+        }
+    }
+    form {
+        border: 0.5rem solid $primary-color-text;
+        background-color: $primary-color-light;
+        
+
+    }
+}

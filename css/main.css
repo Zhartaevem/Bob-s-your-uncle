@@ -1,0 +1,58 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 16px;
+  background-color: #BDBDBD;
+  color: #757575;
+}
+
+body .navbar {
+  padding: 0.3rem 5rem;
+  border: 1px solid #212121;
+}
+
+body .navbar .number-phone {
+  color: #3F51B5;
+}
+
+body .navbar .navbar-nav li.nav-item > a.nav-link {
+  color: #212121;
+}
+
+body .navbar .navbar-nav li.nav-item > a.nav-link:hover {
+  color: #3F51B5;
+}
+
+body .navbar .navbar-nav li.active > a.nav-link {
+  color: #3F51B5;
+}
+
+body .header {
+  font-size: 2rem;
+  background-image: url(/img/header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 560px;
+  padding: 10rem 3rem;
+}
+
+body .header p {
+  color: #757575;
+}
+
+body .header h4 {
+  font-weight: bold;
+  color: #757575;
+}
+
+body .header h4 > span {
+  color: #3F51B5;
+}
+
+body form {
+  border: 0.5rem solid #FFFFFF;
+}
+/*# sourceMappingURL=main.css.map */
